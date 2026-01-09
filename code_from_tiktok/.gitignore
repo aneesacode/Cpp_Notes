@@ -1,8 +1,0 @@
-CMakeLists.txt
-compile_commands.json
-*.cmake
-.cache
-build
-CMakeCache.txt
-CMakeFiles
-Makefile
