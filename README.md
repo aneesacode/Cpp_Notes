@@ -1,67 +1,86 @@
-# Beginner Friendly C++ Programming 
+# Hands-On C++11 Notes & Problems
 
-This repository contains beginner friendly, easy to understand handwritten C++11 notes. Here you will learn the real C++ that is used in Real Production Systems.
+A small, practical collection of beginner-friendly C++11 handwritten notes and exercises.  
+Designed to teach real, modern C++ concepts with simple examples and practice problems.
 
-##  Why my notes ?
+## Why this repo?
+- Short, handwritten notes that are easy to read and understand.
+- Examples are small and runnable; all key explanations stay simple.
+- Practice problems let you check understanding and build confidence.
+- Focus on learning by doing — minimal theory, more practice.
 
-> [!IMPORTANT]
-> - Easy to understand handwritten notes.
-> - Prepared from real authentic sources.
-> - Include modern programming practises.
-> - With properly updated real coding test, designed to test your knowledge.
+## Study rules (best practice)
+- Try solving problems on your own first. No AI for your first 3–4 attempts.
+- If stuck after several attempts, use resources (books, docs, peers). Use AI only as last resort.
+- Write small, clear programs. Prefer clarity over clever one-liners.
 
-## How to test your knowledge ?
+## Problems workflow
+- Open the [Problems List](code_exam/problems.md) — it lists all chapters and links to problem files.
+- Each chapter contains at max 3 to 4 problems of increasing difficulty.
+- Some chapters may include a 5th problem as a mini-project to integrate concepts.
+- Solve problems in order. Each problem is standalone; no need to reference others.
+- I would advise you to first go through the notes and then problems because these problems uses all the concepts from the notes and are designed to test your understanding of those concepts.
 
-To test your knowledge, you should not use any kind of AI for solution. 
-In this AI era, our minds got shrunk by large number, like for every task these days, we use AI.
-But for these test you should not use AI. 
-
-Here is the detailed approach for going through problem list.
-
-1. See this [Problems List](/code_exam/problems.md)
-2. Skip those questions, that you have already solved or the underlying concept is clear to you.
-3. Pick a question that you want is suitable for you.
-4. Try solving 3 to 4 times on your own, if you still got it wrong consistently after 4 tries, then you are allowed to use AI.
-
-## Repository Structure
-
-```bash
+## Repository layout (important files)
+```shell
 └── code_exam
+    └── problems_ch9_ch10.md
+    └── problems_ch6_ch8.md
     └── problems.md
+    └── problems_ch1_ch5.md
 └── README.md
 └── code_examples
+    └── chapter_1
+        └── basic_structure.cpp
     └── chapter_2
         └── datatypes.cpp
-    └── chapter_5
-        └── if-else.cpp
-        └── nested_if-else.cpp
-        └── ternary_operators.cpp
-        └── switch_case.cpp
-    └── chapter_7
-        └── goto.cpp
-        └── break.cpp
-        └── continue.cpp
-    └── chapter_8
-        └── sizeof.cpp
-    └── chapter_10
-        └── call_reference.cpp
-        └── call_value.cpp
-        └── recursion.cpp
+    └── chapter_3
+        └── chapter3.cpp
     └── chapter_4
         └── assignment_operators.cpp
         └── increment_decrement_operators.cpp
         └── arithmetic_operators.cpp
         └── relational_operators.cpp
         └── logical_operators.cpp
-    └── chapter_1
-        └── basic_structure.cpp
-    └── chapter_9
-        └── functions.cpp
-    └── chapter_3
-        └── chapter3.cpp
+    └── chapter_5
+        └── if-else.cpp
+        └── ternary_operators.cpp
+        └── switch_case.cpp
     └── chapter_6
         └── for.cpp
         └── while.cpp
         └── do-while.cpp
-
+    └── chapter_7
+        └── goto.cpp
+        └── break.cpp
+        └── continue.cpp
+    └── chapter_8
+        └── sizeof.cpp
+    └── chapter_9
+        └── functions.cpp
+    └── chapter_10
+        └── call_ref.cpp
+        └── call_value.cpp
+        └── recursion.cpp
 ```
+
+## Tips for the included code files.
+- Many chapters have one .cpp per concept. Each file has its own main().
+- Load each file in any online C++ compiler or your local setup.
+- Compile and run to see output and behavior.
+
+## Tips for beginners
+- Keep functions small and names clear.
+- Use comments to explain why code does something, not what it does.
+- Practice typing code by hand at least once — it helps retention.
+- Read compiler errors carefully; they tell you what to fix.
+
+## Contributing
+- Fix typos, add small examples, or improve problem statements.
+- Keep changes simple and beginner-friendly.
+- Send pull requests with clear descriptions.
+
+## License & Code of Conduct
+- This material is friendly and open for learning. If you add content, keep it respectful and helpful.
+
+Made with ♥️. Follow me on TikTok @ helloworld_275 for more programming related tips and tricks!.

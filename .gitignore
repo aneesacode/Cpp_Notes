@@ -4,5 +4,6 @@ compile_commands.json
 .cache
 build
 CMakeCache.txt
+cmake-build-debug
 CMakeFiles
 Makefile
